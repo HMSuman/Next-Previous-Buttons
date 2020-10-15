@@ -1,0 +1,39 @@
+h2 {
+    color: Olive;
+    text-transform: uppercase;
+    border-bottom: 5px dashed orange;
+}
+
+.main,
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: olive;
+    color: black;
+    transform: scale(1.1);
+    margin: 5px;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: blue;
+    color: white;
+    opacity: 0.7;
+}
+
+.round {
+    border-radius: 50%;
+}
